@@ -1,0 +1,6 @@
+*.json
+.terraform.lock.hcl
+.terraform
+terraform.tfstate.backup
+tfplan
+~BROMIUM/

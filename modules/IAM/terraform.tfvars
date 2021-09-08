@@ -1,0 +1,5 @@
+project_id      = "bustling-winter-323317"
+pub-sub-sa      = "pro-user"
+pub-sub-display = "Service account with pubsub editor role and storage admin role."
+pubsub-role     = "roles/pubsub.editor"
+storage-role    = "roles/storage.objectAdmin"

@@ -1,0 +1,5 @@
+scheduler_name        = "Scenario-1"
+scheduler_description = "Job scheduler for demo scenario-1"
+schedule_value        = "*/5 * * * *"
+tmz                   = "America/Mexico_City"
+topic_id              = "projects/bustling-winter-323317/topics/demo-pubsub-topic"

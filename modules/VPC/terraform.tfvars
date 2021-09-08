@@ -1,0 +1,8 @@
+project_id        = "bustling-winter-323317"
+region            = "us-central1"
+ip_ranges         = "10.3.0.0/16"
+subnet_name       = "demo-subnet2"
+vpc_name          = "demo-network2"
+firewall_protocol = "tcp"
+firewall_port     = "22"
+firewall_name     = "allow-ssh"

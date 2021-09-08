@@ -1,0 +1,30 @@
+//General project variables
+credentials_file = "terraform.json"
+project_id       = "bustling-winter-323317"
+region           = "us-central1"
+//IAM variables with pubsub and storage roles
+pub-sub-sa      = "pro-user"
+pub-sub-display = "Service account with pubsub editor role and storage admin role."
+pubsub-role     = "roles/pubsub.editor"
+storage-role    = "roles/storage.objectAdmin"
+//VPC, Subnet and Firewall variables
+topic_name        = "demo-pubsub-topic"
+subsc_name        = "demo-subs"
+ip_ranges         = "10.3.0.0/16"
+subnet_name       = "demo-subnet2"
+vpc_name          = "demo-network2"
+firewall_protocol = "tcp"
+firewall_port     = "22"
+firewall_name     = "allow-ssh"
+//Cloud Compute Engine variables
+gce_name     = "scenario1-vm"
+machine_type = "e2-standard-2"
+zone         = "us-central1-a"
+gce_image    = "ubuntu-os-cloud/ubuntu-2004-lts"
+custom_sa    = "pro-user@bustling-winter-323317.iam.gserviceaccount.com"
+//Cloud Scheduler variables
+scheduler_name        = "Scenario-1"
+scheduler_description = "Job scheduler for demo scenario-1"
+schedule_value        = "*/5 * * * *"
+tmz                   = "America/Mexico_City"
+topic_id              = "projects/bustling-winter-323317/topics/demo-pubsub-topic"
