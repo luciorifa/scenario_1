@@ -1,6 +1,6 @@
 credentials_file = "terraform.json"
 project_id       = "bustling-winter-323317"
-region           = "us-central1"
+region           = "us-west1"
 pub-sub-sa       = "pro-user"
 pub-sub-display  = "Service account with pubsub editor role and storage admin role."
 pubsub-role      = "roles/pubsub.editor"
