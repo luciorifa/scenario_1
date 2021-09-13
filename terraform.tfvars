@@ -1,7 +1,7 @@
 //General project variables
 credentials_file = "terraform.json"
 project_id       = "bustling-winter-323317"
-region           = "us-west1"
+region           = "us-central1"
 //IAM variables with pubsub and storage roles
 pub-sub-sa      = "pro-user"
 pub-sub-display = "Service account with pubsub editor role and storage admin role."
@@ -19,7 +19,7 @@ firewall_name     = "allow-ssh"
 //Cloud Compute Engine variables
 gce_name     = "scenario1-vm"
 machine_type = "e2-standard-2"
-zone         = "us-west1-c"
+zone         = "us-central1-a"
 gce_image    = "ubuntu-os-cloud/ubuntu-2004-lts"
 custom_sa    = "pro-user@bustling-winter-323317.iam.gserviceaccount.com"
 //Cloud Scheduler variables
